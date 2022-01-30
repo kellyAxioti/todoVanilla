@@ -1,0 +1,41 @@
+#root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 32px;
+   
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .list > li {
+    list-style: none;
+    padding: 8px;
+    border: 1px solid rgb(19, 5, 83);
+    background: rgb(192, 184, 230);
+    
+  }
+  body{
+    background: linear-gradient(90deg, rgba(174, 208, 214, 0.897),rgb(76, 92, 240));
+    color: rgb(255, 255, 255);
+  }
+   input , button{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border: none;
+    color :rgb(19, 5, 83);
+    
+  }
+  li > button{
+    margin-left:3vh;
+  }
+  .trash-btn{
+  
+    float:right;
+  }
+  #todo-add{
+    margin-bottom: 5vh;
+  }
